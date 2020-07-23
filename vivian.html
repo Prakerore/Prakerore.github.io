@@ -14,37 +14,25 @@ border: 50px solid turquoise;
 padding: 50px yellow;
 margin: 0;
 }
-  .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+
+  ul {
+  white-space: nowrap;
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+ul, li {
+  list-style: none;
+  display: inline;
 }
+  
 </style>
 </head>
 <body>
 
-
-<div class="row">
-  <div class="column">
-    <img src = "creme.jpg" width="300" height="300" alt="blue">
-  </div>
-
-  <div class="column">
-    <img src = "crambook.jpg" width="300" height="300" alt="orange">
-  </div>
-   
-  <div class="column">
-    <img src = "coolblue.png" width="300" height="300" alt="beigelinen">
-  </div>
-
-  </div>
+<ul>
+    <li><img src = "creme.jpg" width="300" height="300" alt="blue"></li>
+    <li><img src = "crambook.jpg" width="300" height="300" alt="orange"></li>
+    <li><img src = "coolblue.png" width="300" height="300" alt="beigelinen"><li>
+  </ul>  
 
 </body>
 </html>
